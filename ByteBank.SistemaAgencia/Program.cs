@@ -7,7 +7,8 @@ namespace ByteBank.SistemaAgencia
     {
         private static void Main(string[] args)
         {
-            DateTime dataFimPagamento = new DateTime(2022, 8, 9);
+            DateTime dataFimPagamento = new DateTime(2022, 7, 17);
+ 
             DateTime dataAtual = DateTime.Now;
             TimeSpan diferenca = dataFimPagamento - dataAtual;
             string mensagem = GetIntervaloDeTempoLegivel(diferenca);
@@ -23,7 +24,7 @@ namespace ByteBank.SistemaAgencia
                 {
                     int diasRestantes = quantidadeDias % 7;
                     int quantidadeSemanas = quantidadeDias / 7;
-                    return quantidadeMeses + " meses e "+ quantidadeSemanas + " Semanas e " + diasRestantes + " dias.";
+                    return quantidadeMeses + " meses e " + quantidadeSemanas + " Semanas e " + diasRestantes + " dias.";
                 }
                 return quantidadeMeses + " meses e " + quantidadeDias + " dias.";
             }
@@ -35,6 +36,7 @@ namespace ByteBank.SistemaAgencia
             }
             return timeSpan.Days + " dias";
         }
+
     }
 
 }
