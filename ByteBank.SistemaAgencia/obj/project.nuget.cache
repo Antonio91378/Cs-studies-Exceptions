@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "JlUPhD3EBCh5hD5uWVE4/+2fcqC8keIpKPGGgaKneFNtTpQvs/ouqst56ynZ97pTaiLG6lrRJzr+UGURaNS10A==",
+  "dgSpecHash": "pCz41ibswPRZwTLte1H+wi43rI5wmE4jEckVDmWu9XB6AKEQGP7NTxfEw14e+gAAakKlMWg+cd1abTedifDzPg==",
   "success": true,
   "projectFilePath": "C:\\Users\\antonio.dias\\Desktop\\me\\Projects_Alura\\bytebank_SistemaAgencia\\ByteBank\\ByteBank.SistemaAgencia\\ByteBank.SistemaAgencia.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\antonio.dias\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512"
+  ],
   "logs": []
 }

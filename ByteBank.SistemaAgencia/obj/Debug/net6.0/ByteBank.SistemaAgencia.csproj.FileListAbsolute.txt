@@ -24,3 +24,4 @@ C:\Users\antonio.dias\Desktop\me\Projects_Alura\bytebank_SistemaAgencia\ByteBank
 C:\Users\antonio.dias\Desktop\me\Projects_Alura\bytebank_SistemaAgencia\ByteBank\ByteBank.SistemaAgencia\bin\Debug\Debug\net6.0\ByteBank.Modelos.pdb
 C:\Users\antonio.dias\Desktop\me\Projects_Alura\bytebank_SistemaAgencia\ByteBank\ByteBank.SistemaAgencia\obj\Debug\net6.0\ByteBank.SistemaAgencia.xml
 C:\Users\antonio.dias\Desktop\me\Projects_Alura\bytebank_SistemaAgencia\ByteBank\ByteBank.SistemaAgencia\bin\Debug\Debug\net6.0\ByteBank.Modelos.xml
+C:\Users\antonio.dias\Desktop\me\Projects_Alura\bytebank_SistemaAgencia\ByteBank\ByteBank.SistemaAgencia\bin\Debug\Debug\net6.0\Humanizer.dll
