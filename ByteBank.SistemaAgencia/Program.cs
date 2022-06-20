@@ -1,4 +1,5 @@
 ﻿
+using System.Text.RegularExpressions;
 using ByteBank;
 using Humanizer;
 
@@ -9,10 +10,11 @@ namespace ByteBank.SistemaAgencia
     {
         private static void Main(string[] args)
         {
-            string url = "http://www.bytebank.com/cambio?moedaOrigem=real&moedaDestino=dolar";
+            //Usando expressoões regulares
+            string padrao = "[0-9]{4,5}[-]{0,1}[0-9]{4}";
+            string textoDeTeste = "Meu nome é Naruto, me ligue em 1234-4321";
+            System.Console.WriteLine(Regex.IsMatch(textoDeTeste, padrao)); ;
 
-            StringManipulation extrator = new StringManipulation(url);
-            System.Console.WriteLine("Valor de moedaDestino: " + extrator.GetValor("MOEDAorigem"));
         }
 
     }
