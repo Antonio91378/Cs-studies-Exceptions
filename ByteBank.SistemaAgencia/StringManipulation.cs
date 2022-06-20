@@ -11,14 +11,7 @@ namespace ByteBank.SistemaAgencia
         public string Url { get; }
         public StringManipulation(string url)
         {
-            if (url == null)
-            {
-                throw new ArgumentNullException(nameof(url));
-            }
-            if (url == "")
-            {
-                throw new ArgumentException("o argumento não pode ser uma string vazia", nameof(url));
-            }
+            string.IsNullOrEmpty(url);
             Url = url;
         }
     }
